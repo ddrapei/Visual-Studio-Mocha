@@ -1,0 +1,1062 @@
+/* Visual Studio Settings File */
+{
+  "languages.typescript.formatting.general.importModuleSpecifierPreference": "relative",
+  "languages.typescript.project.noClosedFileDiagnostics": false,
+  "windowsFormsDesigner.general.refactoring.enableRefactoringOnRename": true,
+  "textEditor.codeCompletions.preferences.showCodeCompletionsOnNewLines": false,
+  "textEditor.codeCleanup.profile": "profile1",
+  "copilot.featureFlags.chatUI.enabledMcpServers": "nuget::C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\NuGet\\mcp.json",
+  "environment.visualExperience.systemLightTheme": "dark",
+  "environment.visualExperience.forceWindowsTheme": true,
+  "environment.visualExperience.hideCopilotBadge": true,
+  "environment.visualExperience.systemDarkTheme": "dark",
+  "environment.visualExperience.editorAppearance": "matchTheme",
+  "projectsAndSolutions.general.showOutputWindow": false,
+  "environment.terminal.profiles+defaultItemIndex": 0,
+  "environment.terminal.profiles": [
+    {
+      "displayName": "Developer PowerShell",
+      "location": "C:\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "arguments": "-NoExit -Command \"& { Import-Module \"\"\"$env:VSAPPIDDIR\\..\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath $env:VSAPPIDDIR\\..\\..\\}\""
+    }
+  ],
+  "environment.security.trust.locations": [
+    {
+      "location": "C:\\Users\\DmytroDrapei\\Downloads\\c-sharp-10-data-access-fundamentals\\03\\demos\\Start_Here\\WarehouseManagementSystem",
+      "locationType": "folder",
+      "trustedBy": "localUser"
+    }
+  ],
+  "debugging.general.enableExternalSourcesNode": false,
+  "projectsAndSolutions.general.promptForSymbolicRename": false,
+  "textEditor.codeCompletions.general.codeCompletionsProviders": [],
+  "environment.documents.checkForConsistentLineEndings": false,
+  "environment.tabs.documentTabs.colorization": "project",
+  "projectsAndSolutions.general.reopenDocsOnLoad": false,
+  "environment.fontsAndColors.textEditor.font": "Consolas",
+  "environment.fontsAndColors.textEditor.fontSize": 10,
+  "environment.fontsAndColors.textEditor.[dark].labelName.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].labelName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].namespaceName.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].eventName.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].eventName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].propertyName.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].propertyName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].extensionMethodName.foreground": "#ADDA78",
+  "environment.fontsAndColors.textEditor.[dark].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].methodName.foreground": "#ADDA78",
+  "environment.fontsAndColors.textEditor.[dark].methodName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].parameterName.foreground": "#F38D70",
+  "environment.fontsAndColors.textEditor.[dark].parameterName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].localName.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].localName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].constantName.foreground": "#A8A9EB",
+  "environment.fontsAndColors.textEditor.[dark].constantName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].enumMemberName.foreground": "#A8A9EB",
+  "environment.fontsAndColors.textEditor.[dark].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].fieldName.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].fieldName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].typeParameterName.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].structName.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].structName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].interfaceName.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].enumName.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].enumName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].delegateName.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].delegateName.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].className.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].className.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].operator-overloaded.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].keyword-control.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].string-escapeCharacter.foreground": "#A8A9EB",
+  "environment.fontsAndColors.textEditor.[dark].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].string-verbatim.foreground": "#F9CC6C",
+  "environment.fontsAndColors.textEditor.[dark].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].inactiveSelectedText.background": "#403838",
+  "environment.fontsAndColors.textEditor.[dark].inactiveSelectedText.fontFlags": [],
+  "environment.fontsAndColors.textEditor.[dark].selectedText.background": "#5B5353",
+  "environment.fontsAndColors.textEditor.[dark].selectedText.fontFlags": [],
+  "environment.fontsAndColors.textEditor.[dark].visibleWhitespace.foreground": "#403838",
+  "environment.fontsAndColors.textEditor.[dark].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].lineNumber.foreground": "#5B5353",
+  "environment.fontsAndColors.textEditor.[dark].lineNumber.background": "#2C2525",
+  "environment.fontsAndColors.textEditor.[dark].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].number.foreground": "#A8A9EB",
+  "environment.fontsAndColors.textEditor.[dark].number.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].string.foreground": "#F9CC6C",
+  "environment.fontsAndColors.textEditor.[dark].string.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].operator.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].operator.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].preprocessorKeyword.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].keyword.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].keyword.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].identifier.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].identifier.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].excludedCode.foreground": "#5B5353",
+  "environment.fontsAndColors.textEditor.[dark].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].comment.foreground": "#72696A",
+  "environment.fontsAndColors.textEditor.[dark].comment.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].xmlDocTag.foreground": "#5B5353",
+  "environment.fontsAndColors.textEditor.[dark].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].xmlDocComment.foreground": "#72696A",
+  "environment.fontsAndColors.textEditor.[dark].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].braceMatching-rectangle.background": "#403838",
+  "environment.fontsAndColors.textEditor.[dark].braceMatching-rectangle.fontFlags": [],
+  "environment.fontsAndColors.textEditor.[dark].indicatorMargin.background": "#211C1C",
+  "environment.fontsAndColors.textEditor.[dark].indicatorMargin.fontFlags": [],
+  "environment.fontsAndColors.textEditor.[dark].plainText.foreground": "#FFF1F3",
+  "environment.fontsAndColors.textEditor.[dark].plainText.background": "#2C2525",
+  "environment.fontsAndColors.textEditor.[dark].plainText.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].sqlString.foreground": "#F9CC6C",
+  "environment.fontsAndColors.textEditor.[dark].sqlString.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].sqlOperator.foreground": "#FD6883",
+  "environment.fontsAndColors.textEditor.[dark].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].sqlSystemFunction.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].sqlSystemTable.foreground": "#85DACC",
+  "environment.fontsAndColors.textEditor.[dark].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "environment.fontsAndColors.textEditor.[dark].sqlStoredProcedure.foreground": "#ADDA78",
+  "environment.fontsAndColors.textEditor.[dark].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].indicatorMargin.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mystical-forest].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[sunny-day].indicatorMargin.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[light].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[light].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[light].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[light].indicatorMargin.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[light].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[light].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].indicatorMargin.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[mango-paradise].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[cool-slate].indicatorMargin.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[moonlight-glow].indicatorMargin.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].braceMatching-rectangle.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].keyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].comment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].identifier.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].string.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].number.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].sqlStoredProcedure.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].sqlSystemTable.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].sqlSystemFunction.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].sqlOperator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].sqlString.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].xmlDocComment.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].xmlDocTag.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].excludedCode.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].preprocessorKeyword.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].operator.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].lineNumber.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].visibleWhitespace.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].selectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].inactiveSelectedText.fontFlags": [],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].string-verbatim.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].string-escapeCharacter.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].keyword-control.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].operator-overloaded.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].className.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].delegateName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].enumName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].interfaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].structName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].typeParameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].fieldName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].enumMemberName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].constantName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].localName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].parameterName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].methodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].extensionMethodName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].propertyName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].eventName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].namespaceName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].labelName.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].plainText.fontFlags": [
+    "bold"
+  ],
+  "backup.environment.fontsAndColors.textEditor.[spicy-red].indicatorMargin.fontFlags": [],
+  "environment.fontsAndColors.terminal.font": "Consolas",
+  "environment.fontsAndColors.terminal.fontSize": 10,
+  "environment.fontsAndColors.outputWindow.font": "Consolas Bold",
+  "environment.fontsAndColors.outputWindow.fontSize": 10,
+  "environment.fontsAndColors.outputWindow.[dark].plainText.foreground": "#695C5C",
+  "environment.fontsAndColors.immediateWindow.font": "Consolas",
+  "environment.fontsAndColors.immediateWindow.fontSize": 9,
+  "environment.fontsAndColors.findResults.font": "Consolas",
+  "environment.fontsAndColors.findResults.fontSize": 9,
+  "environment.fontsAndColors.commandWindow.font": "Consolas",
+  "environment.fontsAndColors.commandWindow.fontSize": 9
+}
